@@ -1,0 +1,151 @@
+/* header */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.photo-editing-studio-header {
+    height: 870px;
+    width: 100%;
+    position: relative;
+    display: block;
+    background-image: url(https://au-assets.s3.us-west-2.amazonaws.com/assets/campaigns/2022/Q1/03-01+Photo+Editing+Studio+Page/Photo+Editor+Studio+Header.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.photo-editing-studio-header-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 942px;
+    height: 870px;
+    position: relative;
+}
+
+.photo-editing-studio-subhead {
+    display: block;
+    background: rgba(255,255,255,0);
+    border-style: none;
+    border-radius: 0px;
+    left: 100px;
+    top: 108px;
+    position: absolute;
+}
+
+.photo-editing-studio-subhead h3 {
+    text-align: left;
+    line-height: 20px;
+    letter-spacing: 4px;
+}
+
+.photo-editing-studio-subhead h3 span{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11px;
+    color: #FFF;
+    text-transform: Uppercase;
+}
+
+.photo-editing-studio-header-header {
+    display: block;
+    background: rgba(255,255,255,0);
+    left: 45px;
+    top: 161px;
+    z-index: 12;
+    position: absolute;
+}
+
+.photo-editing-studio-header-image-container {
+    overflow: hidden;
+    border-style: none;
+    border-radius: 0px;
+    width: 343px;
+    height: 89px;
+}
+
+.photo-editing-studio-header-image-container img{
+    height: 100%;
+    width: 100%;
+}
+
+.photo-editing-studio-header-vector {
+    display: block;
+    background: rgba(255,255,255,1);
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ccc;
+    border-radius: 0px;
+    left: 90px;
+    top: 282px;
+    z-index: 15;
+    width: 286px;
+    height: 0px;
+    position: absolute;
+}
+
+.photo-editing-studio-subhead-2 {
+    display: block;  
+    background: rgba(255,255,255,0);
+    border-style: none;
+    border-radius: 0px;
+    left: 100px;
+    top: 306px;
+    z-index: 9;
+    width: 288px;
+    height: 78px;
+    position: absolute;
+}
+
+.photo-editing-studio-subhead-2 h1 {
+    line-height: 26px;
+}
+
+.photo-editing-studio-subhead-2 h1  span{
+    font-weight: 400;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+}
+
+@media only screen and (max-width: 941px) {
+    .photo-editing-studio-header-container {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .photo-editing-studio-header{
+        height: 502px;
+    }
+
+    .photo-editing-studio-subhead {
+        display: none;
+    }
+
+    .photo-editing-studio-header-header{
+        left: 22px;
+        top: 46px;
+    }
+
+    .photo-editing-studio-header-image-container{
+        width: 260px;
+        height: 67px;
+    }
+
+    .photo-editing-studio-header-vector {
+        left: 45px;
+        top: 354px;
+        width: 227px;
+        height: 1px;
+    }
+
+    .photo-editing-studio-subhead-2 {
+        left: 45px;
+        top: 368px;
+        width: 275px;
+    }
+  }

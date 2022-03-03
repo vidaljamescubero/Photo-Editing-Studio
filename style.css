@@ -744,3 +744,55 @@
         left: 80px;
     }
 }
+
+/* block - 4 */
+
+.photo-editing-studio-block-4 {
+    width: 100%;
+    height: 536px;
+}
+
+.photo-editing-studio-block-4-container {
+    border-style: none;
+    border-radius: 0px;
+    width: 942px;
+    height: 100%;
+    margin: auto;
+}
+
+.photo-editing-studio-block-4 img {
+    width: 100%;
+    height: 100%;
+}
+
+.photo-editing-studio-block-4-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 941px) {
+    .photo-editing-studio-block-4 {
+        height: calc(100vw * 0.569);
+    }
+
+    .photo-editing-studio-block-4-container {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .photo-editing-studio-block-4-desktop {
+        display: none; 
+    }
+    
+    .photo-editing-studio-block-4-mobile {
+        display: block;
+    }
+
+    .photo-editing-studio-block-4 {
+        height: 456px;
+    }
+
+    .photo-editing-studio-block-4-container {
+        width: 320px;
+    }
+}

@@ -5,6 +5,18 @@
     padding: 0;
 }
 
+.cms-page-view .page-main {
+    padding: 0 !important;
+}
+
+.mob-width .page-main {
+    padding: 0 !important;
+}
+
+.breadcrumbs ul {
+    display: none !important;
+}
+
 .photo-editing-studio-header {
     height: 870px;
     width: 100%;
@@ -231,7 +243,7 @@
     border-width: 1px;
     border-color: #2f393b;
     border-radius: 0px;
-    left: 50.11%;
+    left: 49.9%;
     top: 7.12%;
     z-index: 10;
     position: absolute;
@@ -310,15 +322,15 @@
     display: block;
     background: rgba(243,234,232,1);
     left: 9.87%;
-    top: 29.8%;
+    top: 29.65%;
     z-index: 17;
     position: absolute;
 }
 
 .photo-editing-studio-block-2-box-4 {
     position: absolute;
-    left: 50.11%;
-    top: 29.8%;
+    left: 49.9%;
+    top: 29.65%;
     background: rgba(243,234,232,1);
     border-style: solid;
     border-width: 1px;
@@ -326,23 +338,21 @@
     border-radius: 0px;
 }
 
-.photo-editing-studio-block-2-borderTopNone {
-    border-top: 0px;
-}
+
 
 .photo-editing-studio-block-2-box-5 {
     display: block;
     background: rgba(255,255,255,0);
     left: 9.87%;
-    top: 52.37%;
+    top: 52.15%;
     z-index: 24;
     position: absolute;
 }
 
 .photo-editing-studio-block-2-box-6 {
     position: absolute;
-    left: 50.11%;
-    top: 52.37%;
+    left: 49.9%;
+    top: 52.15%;
     background: rgba(255,255,255,0);
     border-style: solid;
     border-width: 1px;
@@ -354,15 +364,15 @@
     display: block;
     background: rgba(243,234,232,1);
     left: 9.87%;
-    top: 75.04%;
+    top: 74.65%;
     z-index: 17;
     position: absolute;
 }
 
 .photo-editing-studio-block-2-box-8 {
     position: absolute;
-    left: 50.11%;
-    top: 75%;
+    left: 49.9%;
+    top: 74.65%;
     background: rgba(243,234,232,1);
     border-style: solid;
     border-width: 1px;
@@ -409,9 +419,11 @@
 }
 
 @media only screen and (max-width: 599px) {
-    .photo-editing-studio-block-2-borderTopNone {
-        border-top: 1px solid #000;
+
+    .photo-editing-studio-block-2{
+        height: auto;
     }
+    
     .photo-editing-studio-block-2-content {
         margin-left: auto;
         margin-right: auto;
@@ -439,37 +451,296 @@
     }
 
     .photo-editing-studio-block-2-box-2 {
-        top: 395px;
+        top: 393px;
         left: 33px;
     }
 
     .photo-editing-studio-block-2-box-3 {
         left: 33px;
-        top: 735px;
+        top: 731px;
     }
 
     .photo-editing-studio-block-2-box-4{
         left: 33px;
-        top: 1013px;
+        top: 1007px;
     }
 
     .photo-editing-studio-block-2-box-5{
         left: 33px;
-        top: 1353px;
+        top: 1345px;
     }
 
     .photo-editing-studio-block-2-box-6{
         left: 33px;
-        top: 1631px;
+        top: 1621px;
     }
 
     .photo-editing-studio-block-2-box-7{
         left: 33px;
-        top: 1971px;
+        top: 1959px;
     }
 
     .photo-editing-studio-block-2-box-8{
         left: 33px;
-        top: 2250px;
+        top: 2235px;
+    }
+}
+
+/* block 3 */
+
+.photo-editing-studio-block-3 {
+    width: 100%;
+    height: 759px;
+    background: rgba(207,171,162,1);
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    position: relative;
+}
+
+.photo-editing-studio-block-3-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 942px;
+    height: 100%;
+    position: relative;
+}
+
+.photo-editing-studio-block-3-header {
+    top: 8.56%;
+    z-index: 33;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+.photo-editing-studio-block-3-header p{
+    font-weight: 600; 
+    font-family: Montserrat; 
+    font-size: 28px; 
+    color: rgb(255, 255, 255);
+    line-height: 32px;
+    text-align: center;
+}
+
+.photo-editing-studio-block-3-box-container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.photo-editing-studio-block-3-box-image {
+    position: absolute;
+    width: 100%;
+    height: 83.11%;
+    top: 0;
+}
+
+.photo-editing-studio-block-3-box-cta {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 91.11%;
+}
+
+.photo-editing-studio-block-3-box-cta h3{
+    text-align: left; 
+    line-height: 20px; 
+    letter-spacing: 3px;
+}
+
+.photo-editing-studio-block-3-box-cta h3{
+    text-align: left; 
+    line-height: 20px; 
+    letter-spacing: 3px;
+}
+
+.photo-editing-studio-block-3-box-cta h3 span{
+    white-space: nowrap;
+    font-family: Montserrat; 
+    font-weight: 600; 
+    font-style: normal; 
+    font-size: 11px; 
+    color: #000 !important; 
+    text-transform: Uppercase;
+}
+
+.photo-editing-studio-block-3-box-cta h3 span a{
+    text-decoration: none !important;
+    color: #000 !important; 
+}
+
+.photo-editing-studio-block-3-box-image img{ 
+    width: 100%;
+    height: 100%
+}
+
+.photo-editing-studio-block-3-box-size {
+    width: 26.96%;
+    height: 29.65%;
+}
+
+.photo-editing-studio-block-3-box-1 {
+    position: absolute;
+    top: 17.52%; 
+    left: 8.28%;
+}
+
+.photo-editing-studio-block-3-box-2 {
+    position: absolute;
+    top: 17.52%; 
+    left: 36.52%;
+}
+
+.photo-editing-studio-block-3-box-3 {
+    position: absolute;
+    top: 17.52%; 
+    left: 64.65%;
+}
+
+.photo-editing-studio-block-3-box-4 {
+    position: absolute;
+    top: 50.86%; 
+    left: 8.28%;
+}
+
+.photo-editing-studio-block-3-box-5 {
+    position: absolute;
+    top: 50.86%; 
+    left: 36.52%;
+}
+
+.photo-editing-studio-block-3-box-6 {
+    position: absolute;
+    top: 50.86%; 
+    left: 64.65%;
+}
+
+.photo-editing-studio-block-3-cta {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 88.14%;
+}
+
+.photo-editing-studio-block-3-cta h2{
+    text-align: center;
+    line-height: 28px;
+}
+
+.photo-editing-studio-block-3-cta span{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+    color: #2f393b !important;
+}
+
+.photo-editing-studio-block-3-cta span a{
+    text-decoration: none !important;
+    color: #2f393b !important;
+}
+
+@media only screen and (max-width: 941px) {
+    .photo-editing-studio-block-3-container {
+        width: 100%;
+    }
+
+    .photo-editing-studio-block-3 {
+        height: calc(100vw * 0.8057)
+    }
+
+    .photo-editing-studio-block-3-header {
+        top: 5.56%;
+    }
+}
+
+@media only screen and (max-width: 842px) {
+    .photo-editing-studio-block-3-box-cta h3 {
+        letter-spacing: 2px;
+    }
+    .photo-editing-studio-block-3-box-cta h3 span {
+        font-size: 10px;
+    }
+
+    .photo-editing-studio-block-3-cta {
+        top: 91.14%
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .photo-editing-studio-block-3-box-cta h3 {
+        letter-spacing: 1.5px;
+    }
+    .photo-editing-studio-block-3-box-cta h3 span {
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .photo-editing-studio-block-3-box-cta h3 {
+        letter-spacing: 3px;
+    }
+    .photo-editing-studio-block-3-box-cta h3 span {
+        font-size: 11px;
+    }
+    .photo-editing-studio-block-3 {
+        height: 1721px;
+    }
+
+    .photo-editing-studio-block-3-container {
+        width: 320px;
+    }
+
+    .photo-editing-studio-block-3-header {
+        top: 15px;
+    }
+
+    .photo-editing-studio-block-3-header p{
+        width: 230px;
+        margin: auto;
+    }
+
+    .photo-editing-studio-block-3-box-size {
+        height: 225px;
+        width: 254px;
+    }
+
+    .photo-editing-studio-block-3-box-1 {
+        left: 33px; 
+        top: 119px;
+    }
+
+    .photo-editing-studio-block-3-box-2 {
+        left: 33px; 
+        top: 364px;
+    }
+
+    .photo-editing-studio-block-3-box-3 {
+        left: 33px; 
+        top: 613px;
+    }
+
+    .photo-editing-studio-block-3-box-4 {
+        left: 33px; 
+        top: 864px;
+    }
+
+    .photo-editing-studio-block-3-box-5 {
+        left: 33px; 
+        top: 1113px;
+    }
+
+    .photo-editing-studio-block-3-box-6 {
+        left: 33px; 
+        top: 1366px;
+    }
+
+    .photo-editing-studio-block-3-cta {
+        top: 1647px;
+        width: auto;
+        left: 80px;
     }
 }
